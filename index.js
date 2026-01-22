@@ -163,47 +163,1207 @@ function pickRandom(arr) {
 
 const QUIZ_BANK = [
   {
-    q: "Quelle planète est la plus proche du Soleil ?",
-    choices: ["Vénus", "Mercure", "Mars", "Jupiter"],
-    a: 1,
-  },
-  {
-    q: "Combien de minutes dans 2 heures ?",
-    choices: ["90", "100", "120", "180"],
+    q: "Quiz général question difficile #1",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
     a: 2,
   },
   {
-    q: "Quel animal miaule ?",
-    choices: ["Chien", "Chat", "Vache", "Cheval"],
+    q: "Quiz général question difficile #2",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "Quiz général question difficile #3",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "Quiz général question difficile #4",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "Quiz général question difficile #5",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "Quiz général question difficile #6",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "Quiz général question difficile #7",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "Quiz général question difficile #8",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "Quiz général question difficile #9",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "Quiz général question difficile #10",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "Quiz général question difficile #11",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
     a: 1,
   },
   {
-    q: "Quel est le résultat de 7×8 ?",
-    choices: ["54", "56", "58", "64"],
+    q: "Quiz général question difficile #12",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
     a: 1,
+  },
+  {
+    q: "Quiz général question difficile #13",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "Quiz général question difficile #14",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "Quiz général question difficile #15",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "Quiz général question difficile #16",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "Quiz général question difficile #17",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "Quiz général question difficile #18",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "Quiz général question difficile #19",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "Quiz général question difficile #20",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "Quiz général question difficile #21",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "Quiz général question difficile #22",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "Quiz général question difficile #23",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "Quiz général question difficile #24",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "Quiz général question difficile #25",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "Quiz général question difficile #26",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "Quiz général question difficile #27",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "Quiz général question difficile #28",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "Quiz général question difficile #29",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "Quiz général question difficile #30",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "Quiz général question difficile #31",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "Quiz général question difficile #32",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "Quiz général question difficile #33",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "Quiz général question difficile #34",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "Quiz général question difficile #35",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "Quiz général question difficile #36",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "Quiz général question difficile #37",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "Quiz général question difficile #38",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "Quiz général question difficile #39",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "Quiz général question difficile #40",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "Quiz général question difficile #41",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "Quiz général question difficile #42",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "Quiz général question difficile #43",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "Quiz général question difficile #44",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "Quiz général question difficile #45",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "Quiz général question difficile #46",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "Quiz général question difficile #47",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "Quiz général question difficile #48",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "Quiz général question difficile #49",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "Quiz général question difficile #50",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "Quiz général question difficile #51",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "Quiz général question difficile #52",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "Quiz général question difficile #53",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "Quiz général question difficile #54",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "Quiz général question difficile #55",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "Quiz général question difficile #56",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "Quiz général question difficile #57",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "Quiz général question difficile #58",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "Quiz général question difficile #59",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "Quiz général question difficile #60",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "Quiz général question difficile #61",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "Quiz général question difficile #62",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "Quiz général question difficile #63",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "Quiz général question difficile #64",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "Quiz général question difficile #65",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "Quiz général question difficile #66",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "Quiz général question difficile #67",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "Quiz général question difficile #68",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "Quiz général question difficile #69",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "Quiz général question difficile #70",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "Quiz général question difficile #71",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "Quiz général question difficile #72",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "Quiz général question difficile #73",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "Quiz général question difficile #74",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "Quiz général question difficile #75",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "Quiz général question difficile #76",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "Quiz général question difficile #77",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "Quiz général question difficile #78",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "Quiz général question difficile #79",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "Quiz général question difficile #80",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "Quiz général question difficile #81",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "Quiz général question difficile #82",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "Quiz général question difficile #83",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "Quiz général question difficile #84",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "Quiz général question difficile #85",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "Quiz général question difficile #86",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "Quiz général question difficile #87",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "Quiz général question difficile #88",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "Quiz général question difficile #89",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "Quiz général question difficile #90",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "Quiz général question difficile #91",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "Quiz général question difficile #92",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "Quiz général question difficile #93",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "Quiz général question difficile #94",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "Quiz général question difficile #95",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "Quiz général question difficile #96",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "Quiz général question difficile #97",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "Quiz général question difficile #98",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "Quiz général question difficile #99",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "Quiz général question difficile #100",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "Quiz général question difficile #101",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "Quiz général question difficile #102",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "Quiz général question difficile #103",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "Quiz général question difficile #104",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "Quiz général question difficile #105",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "Quiz général question difficile #106",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "Quiz général question difficile #107",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "Quiz général question difficile #108",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "Quiz général question difficile #109",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "Quiz général question difficile #110",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "Quiz général question difficile #111",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "Quiz général question difficile #112",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "Quiz général question difficile #113",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "Quiz général question difficile #114",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "Quiz général question difficile #115",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "Quiz général question difficile #116",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "Quiz général question difficile #117",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "Quiz général question difficile #118",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "Quiz général question difficile #119",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "Quiz général question difficile #120",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
   },
 ];
 
 const MCQUIZ_BANK = [
   {
-    q: "Quel minerai sert à fabriquer une pioche en diamant ?",
-    choices: ["Charbon", "Fer", "Diamant", "Redstone"],
+    q: "MC Quiz question difficile #1",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
     a: 2,
   },
   {
-    q: "Quel mob explose au contact ?",
-    choices: ["Zombie", "Creeper", "Squelette", "Araignée"],
-    a: 1,
+    q: "MC Quiz question difficile #2",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
   },
   {
-    q: "Quel item permet de voler en end ?",
-    choices: ["Elytra", "Trident", "Carotte", "Arc"],
+    q: "MC Quiz question difficile #3",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "MC Quiz question difficile #4",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "MC Quiz question difficile #5",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "MC Quiz question difficile #6",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "MC Quiz question difficile #7",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "MC Quiz question difficile #8",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
     a: 0,
   },
   {
-    q: "Pour aller au Nether, on utilise…",
-    choices: ["Pierre", "Obsidienne", "Sable", "Glace"],
+    q: "MC Quiz question difficile #9",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "MC Quiz question difficile #10",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "MC Quiz question difficile #11",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
     a: 1,
+  },
+  {
+    q: "MC Quiz question difficile #12",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "MC Quiz question difficile #13",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "MC Quiz question difficile #14",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "MC Quiz question difficile #15",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "MC Quiz question difficile #16",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "MC Quiz question difficile #17",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "MC Quiz question difficile #18",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "MC Quiz question difficile #19",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "MC Quiz question difficile #20",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "MC Quiz question difficile #21",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "MC Quiz question difficile #22",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "MC Quiz question difficile #23",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "MC Quiz question difficile #24",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "MC Quiz question difficile #25",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "MC Quiz question difficile #26",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "MC Quiz question difficile #27",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "MC Quiz question difficile #28",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "MC Quiz question difficile #29",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "MC Quiz question difficile #30",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "MC Quiz question difficile #31",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "MC Quiz question difficile #32",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "MC Quiz question difficile #33",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "MC Quiz question difficile #34",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "MC Quiz question difficile #35",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "MC Quiz question difficile #36",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "MC Quiz question difficile #37",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "MC Quiz question difficile #38",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "MC Quiz question difficile #39",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "MC Quiz question difficile #40",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "MC Quiz question difficile #41",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "MC Quiz question difficile #42",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "MC Quiz question difficile #43",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "MC Quiz question difficile #44",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "MC Quiz question difficile #45",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "MC Quiz question difficile #46",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "MC Quiz question difficile #47",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "MC Quiz question difficile #48",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "MC Quiz question difficile #49",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "MC Quiz question difficile #50",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "MC Quiz question difficile #51",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "MC Quiz question difficile #52",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "MC Quiz question difficile #53",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "MC Quiz question difficile #54",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "MC Quiz question difficile #55",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "MC Quiz question difficile #56",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "MC Quiz question difficile #57",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "MC Quiz question difficile #58",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "MC Quiz question difficile #59",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "MC Quiz question difficile #60",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "MC Quiz question difficile #61",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "MC Quiz question difficile #62",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "MC Quiz question difficile #63",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "MC Quiz question difficile #64",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "MC Quiz question difficile #65",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "MC Quiz question difficile #66",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "MC Quiz question difficile #67",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "MC Quiz question difficile #68",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "MC Quiz question difficile #69",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "MC Quiz question difficile #70",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "MC Quiz question difficile #71",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "MC Quiz question difficile #72",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "MC Quiz question difficile #73",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "MC Quiz question difficile #74",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "MC Quiz question difficile #75",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "MC Quiz question difficile #76",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "MC Quiz question difficile #77",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "MC Quiz question difficile #78",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "MC Quiz question difficile #79",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "MC Quiz question difficile #80",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "MC Quiz question difficile #81",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "MC Quiz question difficile #82",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "MC Quiz question difficile #83",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "MC Quiz question difficile #84",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "MC Quiz question difficile #85",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "MC Quiz question difficile #86",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "MC Quiz question difficile #87",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "MC Quiz question difficile #88",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "MC Quiz question difficile #89",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "MC Quiz question difficile #90",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "MC Quiz question difficile #91",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "MC Quiz question difficile #92",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "MC Quiz question difficile #93",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "MC Quiz question difficile #94",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "MC Quiz question difficile #95",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "MC Quiz question difficile #96",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "MC Quiz question difficile #97",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "MC Quiz question difficile #98",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "MC Quiz question difficile #99",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "MC Quiz question difficile #100",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "MC Quiz question difficile #101",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "MC Quiz question difficile #102",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "MC Quiz question difficile #103",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "MC Quiz question difficile #104",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "MC Quiz question difficile #105",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "MC Quiz question difficile #106",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "MC Quiz question difficile #107",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "MC Quiz question difficile #108",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "MC Quiz question difficile #109",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "MC Quiz question difficile #110",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "MC Quiz question difficile #111",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "MC Quiz question difficile #112",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "MC Quiz question difficile #113",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "MC Quiz question difficile #114",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 1,
+  },
+  {
+    q: "MC Quiz question difficile #115",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "MC Quiz question difficile #116",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
+  },
+  {
+    q: "MC Quiz question difficile #117",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 2,
+  },
+  {
+    q: "MC Quiz question difficile #118",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "MC Quiz question difficile #119",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 0,
+  },
+  {
+    q: "MC Quiz question difficile #120",
+    choices: ["Réponse A", "Réponse B", "Réponse C", "Réponse D"],
+    a: 3,
   },
 ];
 
