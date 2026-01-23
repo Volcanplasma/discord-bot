@@ -30,7 +30,7 @@ const SUGGEST_CHANNEL_ID = process.env.SUGGEST_CHANNEL_ID || null;
 const SITE_URL = "http://plairepoilue.click";
 const MC_VERSION = "1.20.1";
 const MODPACK_URL =
-  "https://www.curseforge.com/minecraft/modpacks/better-mc-forge-bmc4";
+  "https://www.curseforge.com/minecraft/modpacks/valhelsia-6";
 const MC_IP = process.env.MC_IP || "play.plairepoilue.click";
 
 if (!TOKEN || !CLIENT_ID || !GUILD_ID) {
